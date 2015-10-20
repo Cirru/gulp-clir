@@ -1,0 +1,34 @@
+{
+  "name": "gulp-clir",
+  "version": "0.0.1",
+  "description": "Gulp plugin for Clir converter",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cirru",
+    "clir",
+    "c"
+  ],
+  "author": "jiyinyiyong",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cirru/gulp-clir.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cirru/gulp-clir/issues"
+  },
+  "homepage": "https://github.com/Cirru/gulp-clir#readme",
+  "devDependencies": {
+    "cirru-script": "^0.4.26",
+    "gulp": "^3.9.0",
+    "gulp-cirru-script": "^0.4.26"
+  },
+  "dependencies": {
+    "clir": "0.0.1",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.0"
+  }
+}
